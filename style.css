@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.gear {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url('https://iconarchive.com/download/i108281/google/noto-emoji-objects/62970-gear.ico') no-repeat center;
+    background-size: contain;
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.programming-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('URL_DO_SEU_ICONE') no-repeat center;
+    background-size: contain;
+}
