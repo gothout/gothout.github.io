@@ -12,11 +12,7 @@ body {
 }
 
 .gear {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background: url('https://iconarchive.com/download/i108281/google/noto-emoji-objects/62970-gear.ico') no-repeat center;
-    background-size: contain;
+    font-size: 100px;
     animation: spin 4s linear infinite;
 }
 
@@ -37,9 +33,5 @@ body {
 }
 
 .programming-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: url('URL_DO_SEU_ICONE') no-repeat center;
-    background-size: contain;
+    font-size: 20px;
 }
